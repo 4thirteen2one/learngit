@@ -1,2 +1,9 @@
 see what will happen
 
+if new files are created in the current repository, these changes will be detected
+
+if new files are added to git using command "git add [filename]", it will tell you that modifying and newing is to commited
+
+if committed, you will get "working directory clean"
+
+
