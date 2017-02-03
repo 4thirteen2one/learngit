@@ -54,7 +54,7 @@ def calculate(expression):
     expression = expression.replace(k, str(basic_operation(k[1:len(k) - 1])))
     return calculate(expression)
  
-s = input("Something like '1+2*3-4/5':\n")
+s = input("Please enter something like '1+2*3-4/5':\n")
 print('用eval计算出来的值为：{}\n计算器计算出来的值为：{}'.format(eval(s), calculate(s)))
 # '1 - 2 * ( (60-30 +(-40/5) * (9-2*5/3 + 7 /3*99/4*2998 +10 * 568/14 )) - (-4*3)/ (16-3*2) )'
 # >>> 用eval计算出来的值为：2776672.6952380957
